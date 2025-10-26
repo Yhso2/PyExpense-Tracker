@@ -200,9 +200,7 @@ def delete_expense_interface(tracker):
     except ValueError:
         print("❌ Invalid ID!")
 
-
 def main():
-    """Main application loop."""
     tracker = ExpenseTracker()
     
     while True:
@@ -229,7 +227,3 @@ def main():
             print("❌ Invalid choice! Please try again.")
         
         input("\nPress Enter to continue...")
-
-
-if __name__ == "__main__":
-    main()
